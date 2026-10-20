@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Benchmarking strategy: atomic checks and task-based benchmarks for perception, robotics, engineering multi-physics, and industrial twins.">
+<meta name="theme-color" content="#11120f">
+<meta name="robots" content="noindex, nofollow">
+<title>Benchmarking strategy</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%2311120f'/%3E%3Cpath d='M8 8h16v4H12v12H8z' fill='%2376B900'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+ <div class="header-inner">
+ <a class="wordmark" href="#strategy" aria-label="Benchmarking strategy, back to top"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Asset-Benchmark</span></a>
+ <div class="header-actions"><a class="source-link" href="https://docs.google.com/document/d/1x04NskV2VQpQ1vxswNU1lVymsP5RPKzYYg6Md8BALps/edit?tab=t.ptopyir6b20x" target="_blank" rel="noopener">Source document <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button class="copy-link" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m10 13 4-4M9 15l-1 1a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m0 3 1-1a4 4 0 0 1 6 6l-4 4a4 4 0 0 1-6 0" transform="translate(1 1)"/></svg><span>Copy link</span></button></div>
+ </div>
+</header>
+<div class="page-shell">
+ <aside class="sidebar" aria-label="Page navigation">
+ <nav class="toc" aria-label="On this page">
+ <div class="toc-title">On this page</div>
+ <a href="#strategy" class="toc-link is-active" aria-current="location"><span>01</span>Strategy</a>
+ <a href="#atomic" class="toc-link"><span>02</span>Atomic checks</a>
+ <a href="#perception" class="toc-link"><span>03</span>Perception</a>
+ <a href="#robotics" class="toc-link"><span>04</span>Robotics</a>
+ <div class="toc-subnav">
+ <a href="#rigid-body" class="toc-link">Rigid body manipulation</a>
+ <a href="#precision-assembly" class="toc-link">Precision assembly</a>
+ <a href="#articulated" class="toc-link">Articulated interaction</a>
+ </div>
+ <a href="#dsx" class="toc-link"><span>05</span>DSX</a>
+ <a href="#industrial" class="toc-link"><span>06</span>Industrial twin</a>
+ </nav>
+ <div class="sidebar-footer"><span class="green-rule"></span><span>Benchmarking strategy</span></div>
+ </aside>
+ <main id="main">
+ <article>
+ <section id="strategy" class="hero tracked-section" aria-labelledby="page-title">
+ <div class="eyebrow"><span class="accent-square" aria-hidden="true"></span>Asset-Benchmark</div>
+ <h1 id="page-title" data-source-start="1">Benchmarking strategy</h1>
+ <ul class="strategy-list">
+ <li><span class="strategy-number" aria-hidden="true">01</span><p data-source-start="24">Answers ecosystem partners’ question on what’s the definition of good.</p></li><li><span class="strategy-number" aria-hidden="true">02</span><p data-source-start="96">Use benchmark/validation to drive content authoring.</p></li><li><span class="strategy-number" aria-hidden="true">03</span><p data-source-start="150">Benchmarks should be composable based on how the assets be used</p></li><li><span class="strategy-number" aria-hidden="true">04</span><p data-source-start="214">Skills to pair with benchmarks to better guide frontier models on generation, reaching one shot success</p></li>
+ </ul>
+ </section>
+ <section class="chapter" aria-labelledby="tiers-title">
+ <div class="chapter-heading"><span class="chapter-marker" aria-hidden="true"></span><h2 id="tiers-title" data-source-start="321">Tiers</h2></div>
+ <section id="atomic" class="atomic-section tracked-section" aria-labelledby="atomic-title">
+ <div class="section-meta">02 / Atomic checks</div>
+ <h3 id="atomic-title" data-source-start="328">Atomic, priority below</h3>
+ <ol class="priority-list"><li data-source-start="351">Physics</li><li data-source-start="359">Geometry (mesh)</li><li data-source-start="375">Joint</li><li data-source-start="381">Material &amp; Texture</li></ol>
+ </section>
+ <section id="perception" class="content-section tracked-section" aria-labelledby="perception-title">
+ <div class="section-meta">03 / Perception</div>
+ <h3 id="perception-title" data-source-start="400">E2e pairs with tasks, composable and selectable by agents</h3>
+ <p class="section-intro" data-source-start="458">E2E reaches an asset that’s good enough for perception models</p>
+ <p class="solver-line" data-source-start="520">Target solvers: RTX (real-time and path-traced) · Unreal · Blender Cycles · Neural renderers</p>
+ <figure class="reference-figure" data-source-image="kix.d5bi9fiwtbqk">
+ <figcaption><span class="figure-label"><span class="figure-index">01</span>Perception benchmark table</span><a class="image-open" href="assets/kix.d5bi9fiwtbqk.png" target="_blank" rel="noopener" data-lightbox data-caption="Perception benchmark table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5M3 3l6 6M21 3l-6 6M3 21l6-6M21 21l-6-6"/></svg><span>View full size</span></a></figcaption>
+ <a class="figure-preview" href="assets/kix.d5bi9fiwtbqk.png" target="_blank" rel="noopener" data-lightbox data-caption="Perception benchmark table" aria-label="View Perception benchmark table full size"><img src="assets/kix.d5bi9fiwtbqk.png" width="1512" height="1238" alt="Original perception benchmark table from the source document. Open full size to inspect all criteria and thresholds." loading="lazy" decoding="async"></a>
+ </figure>
+ </section>
+ </section>
+ <section class="chapter use-cases" aria-labelledby="uses-title">
+ <div class="chapter-heading"><span class="chapter-marker" aria-hidden="true"></span><h2 id="uses-title" data-source-start="616">Additional use cases in addition to perception</h2></div>
+ <section id="robotics" class="content-section robotics-section tracked-section" aria-labelledby="robotics-title">
+ <div class="section-meta">04 / Robotics</div>
+ <h3 id="robotics-title" data-source-start="664">Robotics:</h3>
+ <p class="solver-line" data-source-start="675">PhysX 5 · Newton (MuJoCo Warp)</p>
+ <section id="rigid-body" class="subcase tracked-section" aria-labelledby="rigid-title">
+ <div class="subcase-heading"><span class="subcase-index" aria-hidden="true">01</span><h4 id="rigid-title" data-source-start="707">Rigid body manipulation, example use cases</h4></div>
+ <ul class="examples"><li data-source-start="750">Pick and place</li><li data-source-start="765">Bin picking</li><li data-source-start="777">Packing and kitting</li><li data-source-start="797">Dexterous in-hand manipulation</li><li data-source-start="828">Tool use</li></ul>
+ <figure class="reference-figure" data-source-image="kix.gsd51r5j1in">
+ <figcaption><span class="figure-label"><span class="figure-index">02</span>Rigid body manipulation benchmark table</span><a class="image-open" href="assets/kix.gsd51r5j1in.png" target="_blank" rel="noopener" data-lightbox data-caption="Rigid body manipulation benchmark table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5M3 3l6 6M21 3l-6 6M3 21l6-6M21 21l-6-6"/></svg><span>View full size</span></a></figcaption>
+ <a class="figure-preview" href="assets/kix.gsd51r5j1in.png" target="_blank" rel="noopener" data-lightbox data-caption="Rigid body manipulation benchmark table" aria-label="View Rigid body manipulation benchmark table full size"><img src="assets/kix.gsd51r5j1in.png" width="900" height="583" alt="Original rigid body manipulation benchmark table from the source document. Open full size to inspect all criteria and thresholds." loading="lazy" decoding="async"></a>
+ </figure>
+ </section>
+ <section id="precision-assembly" class="subcase tracked-section" aria-labelledby="precision-title">
+ <div class="subcase-heading"><span class="subcase-index" aria-hidden="true">02</span><h4 id="precision-title" data-source-start="839">Precision assembly, example use cases</h4></div>
+ <ul class="examples"><li data-source-start="877">Peg and connector insertion</li><li data-source-start="905">Fastening</li><li data-source-start="915">Gear meshing</li><li data-source-start="928">Kitting into fixtures</li></ul>
+ <figure class="reference-figure" data-source-image="kix.neefjj1fgqhj">
+ <figcaption><span class="figure-label"><span class="figure-index">03</span>Precision assembly benchmark table</span><a class="image-open" href="assets/kix.neefjj1fgqhj.png" target="_blank" rel="noopener" data-lightbox data-caption="Precision assembly benchmark table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5M3 3l6 6M21 3l-6 6M3 21l6-6M21 21l-6-6"/></svg><span>View full size</span></a></figcaption>
+ <a class="figure-preview" href="assets/kix.neefjj1fgqhj.png" target="_blank" rel="noopener" data-lightbox data-caption="Precision assembly benchmark table" aria-label="View Precision assembly benchmark table full size"><img src="assets/kix.neefjj1fgqhj.png" width="892" height="583" alt="Original precision assembly benchmark table from the source document. Open full size to inspect all criteria and thresholds." loading="lazy" decoding="async"></a>
+ </figure>
+ </section>
+ <section id="articulated" class="subcase tracked-section" aria-labelledby="articulated-title">
+ <div class="subcase-heading"><span class="subcase-index" aria-hidden="true">03</span><h4 id="articulated-title" data-source-start="952">Articulated interaction, example use cases</h4></div>
+ <ul class="examples"><li data-source-start="995">Doors and Drawers</li><li data-source-start="1013">Appliances</li><li data-source-start="1024">Valves, knobs and levers</li><li data-source-start="1049">Laptops and lids</li></ul>
+ <figure class="reference-figure" data-source-image="kix.4a994au76bdv">
+ <figcaption><span class="figure-label"><span class="figure-index">04</span>Articulated interaction benchmark table</span><a class="image-open" href="assets/kix.4a994au76bdv.png" target="_blank" rel="noopener" data-lightbox data-caption="Articulated interaction benchmark table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5M3 3l6 6M21 3l-6 6M3 21l6-6M21 21l-6-6"/></svg><span>View full size</span></a></figcaption>
+ <a class="figure-preview" href="assets/kix.4a994au76bdv.png" target="_blank" rel="noopener" data-lightbox data-caption="Articulated interaction benchmark table" aria-label="View Articulated interaction benchmark table full size"><img src="assets/kix.4a994au76bdv.png" width="892" height="854" alt="Original articulated interaction benchmark table from the source document. Open full size to inspect all criteria and thresholds." loading="lazy" decoding="async"></a>
+ </figure>
+ </section>
+ </section>
+ <section id="dsx" class="content-section tracked-section" aria-labelledby="dsx-title">
+ <div class="section-meta">05 / DSX</div>
+ <h3 id="dsx-title" data-source-start="1068">DSX (Engineering multi-physics)</h3>
+ <p class="solver-line" data-source-start="1100">Target solvers: OpenFOAM · Ansys · Abaqus · COMSOL · Simcenter STAR-CCM+ · PhysicsNeMo surrogates</p>
+ <ul class="examples"><li data-source-start="1198">Thermal and airflow</li><li data-source-start="1218">Structural analysis</li><li data-source-start="1238">CFD</li></ul>
+ <figure class="reference-figure" data-source-image="kix.91auhaqvkuvi">
+ <figcaption><span class="figure-label"><span class="figure-index">05</span>DSX benchmark table</span><a class="image-open" href="assets/kix.91auhaqvkuvi.png" target="_blank" rel="noopener" data-lightbox data-caption="DSX benchmark table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5M3 3l6 6M21 3l-6 6M3 21l6-6M21 21l-6-6"/></svg><span>View full size</span></a></figcaption>
+ <a class="figure-preview" href="assets/kix.91auhaqvkuvi.png" target="_blank" rel="noopener" data-lightbox data-caption="DSX benchmark table" aria-label="View DSX benchmark table full size"><img src="assets/kix.91auhaqvkuvi.png" width="1566" height="770" alt="Original dsx benchmark table from the source document. Open full size to inspect all criteria and thresholds." loading="lazy" decoding="async"></a>
+ </figure>
+ </section>
+ <section id="industrial" class="content-section tracked-section" aria-labelledby="industrial-title">
+ <div class="section-meta">06 / Industrial twin</div>
+ <h3 id="industrial-title" data-source-start="1244">Industrial twin</h3>
+ <p class="solver-line" data-source-start="1261">PhysX 5 (Isaac Sim) · Commercial (Siemens, Rockwell Emulate3D, Visual Components, AnyLogic, FlexSim) · Robot offline programming tools</p>
+ <figure class="reference-figure" data-source-image="kix.314puhi8n5ze">
+ <figcaption><span class="figure-label"><span class="figure-index">06</span>Industrial twin benchmark table</span><a class="image-open" href="assets/kix.314puhi8n5ze.png" target="_blank" rel="noopener" data-lightbox data-caption="Industrial twin benchmark table"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5M3 3l6 6M21 3l-6 6M3 21l6-6M21 21l-6-6"/></svg><span>View full size</span></a></figcaption>
+ <a class="figure-preview" href="assets/kix.314puhi8n5ze.png" target="_blank" rel="noopener" data-lightbox data-caption="Industrial twin benchmark table" aria-label="View Industrial twin benchmark table full size"><img src="assets/kix.314puhi8n5ze.png" width="1566" height="1024" alt="Original industrial twin benchmark table from the source document. Open full size to inspect all criteria and thresholds." loading="lazy" decoding="async"></a>
+ </figure>
+ </section>
+ </section>
+ </article>
+ <footer class="page-footer"><a href="https://docs.google.com/document/d/1x04NskV2VQpQ1vxswNU1lVymsP5RPKzYYg6Md8BALps/edit?tab=t.ptopyir6b20x" target="_blank" rel="noopener">Open source document <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="#strategy">Back to top <span aria-hidden="true">↑</span></a></footer>
+ </main>
+</div>
+<div class="toast" role="status" aria-live="polite"></div>
+<dialog class="lightbox" aria-labelledby="lightbox-title">
+ <div class="lightbox-toolbar"><h2 id="lightbox-title">Benchmark table</h2><div class="lightbox-actions"><button type="button" class="zoom-toggle" aria-pressed="false">Actual size</button><a class="lightbox-original" target="_blank" rel="noopener">Open image <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button class="lightbox-close" type="button" aria-label="Close image viewer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 6 18 18M6 18 18 6"/></svg></button></div></div>
+ <div class="lightbox-viewport"><img class="lightbox-image" alt=""></div>
+</dialog>
+</body>
+</html>
